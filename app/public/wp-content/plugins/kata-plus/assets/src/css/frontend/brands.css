@@ -1,0 +1,209 @@
+.kata-brands .kata-brands-items img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.kata-brands .kata-brands-items {
+    display: inline-block;
+    padding: 0 10px 10px;
+    text-align: center;
+    min-height: 130px;
+}
+
+.kata-brands {
+    text-align: center;
+}
+
+.kata-brands .brands-items-one {
+    max-width: 100%;
+    width: 100%;
+}
+
+.kata-brands .brands-items-two {
+    max-width: calc(50% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-three {
+    max-width: calc(33% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-four {
+    max-width: calc(25% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-five {
+    max-width: calc(20% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-six {
+    max-width: calc(16% - 15px);
+    width: 100%;
+}
+
+/* Laptop (up to 1366px) */
+@media(max-width:1366px) {
+    .kata-brands .brands-items-one-lap {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-lap {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-lap {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-lap {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-lap {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-lap {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}
+
+/* Tablet Extra / Tablet Landscape (up to 1024px) */
+@media(max-width:1024px) {
+    .kata-brands .brands-items-one-tabex {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-tabex {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-tabex {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-tabex {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-tabex {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-tabex {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}
+
+@media(min-width:482px) and (max-width:769px) {
+    .kata-brands .brands-items-one-tab {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-tab {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-tab {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-tab {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-tab {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-tab {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}
+
+/* Mobile Extra / Mobile Landscape (up to 768px) */
+@media(max-width:768px) {
+    .kata-brands .brands-items-one-mobex {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-mobex {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-mobex {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-mobex {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-mobex {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-mobex {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}
+
+@media(max-width:481px) {
+    .kata-brands .brands-items-one-mob {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-mob {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-mob {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-mob {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-mob {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-mob {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}

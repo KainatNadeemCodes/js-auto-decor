@@ -1,0 +1,8 @@
+{
+	"name": "shop-press/styler",
+	"description": "Styler CSS processing dependencies (css-crush, css-tidy) for Shop Press plugin.",
+	"require": {
+		"cerdic/css-tidy": "^2.1",
+		"css-crush/css-crush": "^4.1"
+	}
+}

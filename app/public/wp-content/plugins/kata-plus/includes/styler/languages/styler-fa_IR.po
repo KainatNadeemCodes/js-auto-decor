@@ -1,0 +1,1397 @@
+# Copyright (C) 2024 Climax Themes
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Styler Pro Redux 3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/styler-redux\n"
+"POT-Creation-Date: 2025-05-13T08:57:16+00:00\n"
+"PO-Revision-Date: 2025-05-13 12:27+0330\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: styler\n"
+"X-Loco-Version: 2.6.14; wp-6.7\n"
+
+#. Plugin Name of the plugin
+#: styler.php
+msgid "Styler Pro Redux"
+msgstr "استایلر پرو ریداکس"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: styler.php
+msgid "https://climaxthemes.com"
+msgstr "https://climaxthemes.com"
+
+#. Description of the plugin
+#: styler.php
+msgid "Styler makes styling your pages easier."
+msgstr "استایلر، استایل‌دهی به صفحات شما را آسان‌تر ی‌کند."
+
+#. Author of the plugin
+#: styler.php
+msgid "Climax Themes"
+msgstr "کلایمکس تمز"
+
+#: lib/breakpoints/manager.php:129
+msgid "Mobile"
+msgstr "موبایل"
+
+#: lib/breakpoints/manager.php:136
+msgid "M Landscape"
+msgstr "موبایل افقی"
+
+#: lib/breakpoints/manager.php:143
+msgid "Tablet"
+msgstr "تبلت"
+
+#: lib/breakpoints/manager.php:150
+msgid "T Landscape"
+msgstr "تبلت افقی"
+
+#: lib/breakpoints/manager.php:157
+msgid "Laptop"
+msgstr "لپ‌تاپ"
+
+#: lib/breakpoints/manager.php:164
+msgid "Desktop"
+msgstr "دسکتاپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:60
+#: src/App/config/config.jsx:183
+msgid "Normal"
+msgstr "عادی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:61
+msgid "Hover"
+msgstr "هاور"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:63
+msgid "Parent Hover"
+msgstr "هاور والد"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:67
+msgid "Before"
+msgstr "بی فور"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:68
+msgid "After"
+msgstr "اَفتر"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:71
+msgid "Text"
+msgstr "متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:75
+#: src/App/config/config.jsx:84
+msgid "Content"
+msgstr "Content"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:89
+msgid "Text & Typography"
+msgstr "متن و تایپوگرافی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:95
+#: src/App/config/config.jsx:409 src/App/config/config.jsx:1670
+#: src/App/config/config.jsx:1687
+msgid "Color"
+msgstr "رنگ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:102
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:116
+msgid "Line Height"
+msgstr "ارتفاع خط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:129
+msgid "Letter Spacing"
+msgstr "فاصله حروف"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:144
+msgid "Font Family"
+msgstr "خانواده فونت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:160
+msgid "Font Weight"
+msgstr "وزن فونت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:162
+#: src/App/config/config.jsx:295 src/App/config/config.jsx:559
+#: src/App/config/config.jsx:617 src/App/config/config.jsx:628
+#: src/App/config/config.jsx:640 src/App/config/config.jsx:652
+#: src/App/config/config.jsx:665 src/App/config/config.jsx:733
+#: src/App/config/config.jsx:2301
+msgid "unset"
+msgstr "تنظیم نشده"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:163
+msgid "100 | Thin"
+msgstr "100 | نازک"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:164
+msgid "200 | Extra Light"
+msgstr "200 | فوق سبک"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:165
+msgid "300 | Light"
+msgstr "300 | سبک"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:166
+msgid "400 | Normal"
+msgstr "400 | معمولی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:167
+msgid "500 | Medium"
+msgstr "500 | متوسط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:168
+msgid "600 | Semi Bold"
+msgstr "600 | نیمه ضخیم"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:169
+msgid "700 | Bold"
+msgstr "700 | ضخیم"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:170
+msgid "800 | Extra Bold"
+msgstr "800 | فوق ضخیم"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:171
+msgid "900 | High Bold"
+msgstr "900 | بسیار ضخیم"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:178
+msgid "Font Style"
+msgstr "سبک فونت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:189
+msgid "Italic"
+msgstr "کج"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:195
+msgid "Oblique"
+msgstr "مایل"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:204
+msgid "Text Align"
+msgstr "ترازبندی متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:209
+#: src/App/config/config.jsx:1245 src/App/config/config.jsx:1333
+msgid "Left"
+msgstr "چپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:214
+msgid "Center"
+msgstr "وسط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:219
+#: src/App/config/config.jsx:1209 src/App/config/config.jsx:1297
+msgid "Right"
+msgstr "راست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:224
+msgid "Justify"
+msgstr "دوطرفه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:232
+msgid "Text Transform"
+msgstr "تبدیل متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:237
+#: src/App/config/config.jsx:265
+msgid "None"
+msgstr "هیچکدام"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:242
+msgid "Uppercase"
+msgstr "حروف بزرگ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:247
+msgid "Lowercase"
+msgstr "حروف کوچک"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:252
+msgid "Capitalize"
+msgstr "حرف اول بزرگ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:260
+msgid "Text Decoration"
+msgstr "تزئین متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:270
+msgid "Underline"
+msgstr "زیرخط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:275
+msgid "Overline"
+msgstr "خط بالای متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:280
+msgid "Line Through"
+msgstr "خط میانی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:288
+msgid "Decoration Style"
+msgstr "سبک تزئین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:290
+msgid "solid"
+msgstr "توپر"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:291
+msgid "double"
+msgstr "دوتایی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:292
+msgid "dotted"
+msgstr "نقطه چین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:293
+msgid "dashed"
+msgstr "خط چین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:294
+msgid "wavy"
+msgstr "موج‌دار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:306
+msgid "Thickness"
+msgstr "ضخامت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:319
+msgid "Decoration Color"
+msgstr "رنگ تزئین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:328
+msgid "Direction"
+msgstr "جهت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:333
+msgid "Left to Right"
+msgstr "از چپ به راست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:338
+msgid "Right to Left"
+msgstr "راست به چپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:346
+msgid "Text Wrap"
+msgstr "شکست متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:348
+msgid "wrap"
+msgstr "wrap"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:349
+msgid "nowrap"
+msgstr "nowrap"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:350
+msgid "balance"
+msgstr "تعادل"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:357
+msgid "Writing Mode"
+msgstr "حالت نوشتن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:359
+msgid "horizontal-tb"
+msgstr "horizontal-tb"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:360
+msgid "vertical-rl"
+msgstr "vertical-rl"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:361
+msgid "vertical-lr"
+msgstr "vertical-lr"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:368
+msgid "Text Orientation"
+msgstr "جهت متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:370
+msgid "mixed"
+msgstr "ترکیبی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:371
+msgid "upright"
+msgstr "ایستاده"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:372
+msgid "sideways"
+msgstr "پهلویی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:373
+msgid "sideways-right"
+msgstr "sideways-right"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:381
+#: src/App/config/config.jsx:385
+msgid "Background"
+msgstr "پس‌زمینه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:394
+#: src/App/config/config.jsx:396
+msgid "Solid"
+msgstr "کلاسیک"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:399
+#: src/App/config/config.jsx:401
+msgid "Gradient"
+msgstr "گرادینت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:428
+msgid "Image"
+msgstr "تصویر"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:437
+#: src/App/config/config.jsx:2296
+msgid "Repeat"
+msgstr "تکرار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:439
+msgid "repeat"
+msgstr "تکرار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:440
+msgid "repeat-x"
+msgstr "تکرار افقی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:441
+msgid "repeat-y"
+msgstr "تکرار عمودی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:442
+msgid "no-repeat"
+msgstr "بدون تکرار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:453
+msgid "Attachment"
+msgstr "پیوست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:455
+#: src/App/config/config.jsx:655
+msgid "scroll"
+msgstr "اسکرول"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:456
+msgid "fixed"
+msgstr "ثابت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:468
+#: src/App/config/config.jsx:1578 src/App/config/config.jsx:1585
+msgid "Position"
+msgstr "موقعیت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:473
+#: src/App/config/config.jsx:753
+msgid "left top"
+msgstr "بالا چپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:474
+#: src/App/config/config.jsx:754
+msgid "left center"
+msgstr "چپ وسط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:475
+#: src/App/config/config.jsx:755
+msgid "left bottom"
+msgstr "چپ پایین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:476
+#: src/App/config/config.jsx:756
+msgid "right top"
+msgstr "راست بالا"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:477
+#: src/App/config/config.jsx:757
+msgid "right center"
+msgstr "راست وسط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:478
+#: src/App/config/config.jsx:758
+msgid "right bottom"
+msgstr "راست پایین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:479
+#: src/App/config/config.jsx:759
+msgid "center top"
+msgstr "وسط بالا"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:480
+#: src/App/config/config.jsx:760
+msgid "center center"
+msgstr "وسط وسط"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:481
+#: src/App/config/config.jsx:761
+msgid "center bottom"
+msgstr "وسط پایین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:482
+#: src/App/config/config.jsx:508
+msgid "custom"
+msgstr "سفارشی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:485
+msgid "X Position"
+msgstr "موقعیت افقی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:486
+msgid "Y Position"
+msgstr "موقعیت عمودی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:498
+#: src/App/config/config.jsx:1079
+msgid "Size"
+msgstr "اندازه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:503
+#: src/App/config/config.jsx:656 src/App/config/config.jsx:688
+msgid "auto"
+msgstr "اوتوماتیک"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:504
+#: src/App/config/config.jsx:736
+msgid "cover"
+msgstr "پوشش"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:505
+#: src/App/config/config.jsx:735
+msgid "contain"
+msgstr "دربرگیرنده"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:506
+#: src/App/config/config.jsx:594 src/App/config/config.jsx:676
+#: src/App/config/config.jsx:724
+msgid "inherit"
+msgstr "ارث‌بری"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:507
+#: src/App/config/config.jsx:593 src/App/config/config.jsx:675
+#: src/App/config/config.jsx:723
+msgid "initial"
+msgstr "اولیه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:511
+#: src/App/config/config.jsx:1083 src/App/config/config.jsx:1091
+msgid "Width"
+msgstr "عرض"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:512
+#: src/App/config/config.jsx:1128 src/App/config/config.jsx:1136
+msgid "Height"
+msgstr "ارتفاع"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:528
+msgid "Clip Text"
+msgstr "برش متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:547
+#: src/App/config/config.jsx:551 src/App/config/config.jsx:557
+msgid "Display"
+msgstr "نمایش"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:560
+msgid "inline"
+msgstr "inline"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:561
+msgid "block"
+msgstr "block"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:562
+#: src/App/config/config.jsx:631 src/App/config/config.jsx:708
+#: src/App/config/config.jsx:737
+msgid "none"
+msgstr "none"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:563
+msgid "contents"
+msgstr "contents"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:564
+msgid "flex"
+msgstr "flex"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:565
+msgid "grid"
+msgstr "grid"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:566
+msgid "inline-block"
+msgstr "inline-block"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:567
+msgid "inline-flex"
+msgstr "inline-flex"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:568
+msgid "inline-grid"
+msgstr "inline-grid"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:569
+msgid "inline-table"
+msgstr "inline-table"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:570
+msgid "list-item"
+msgstr "list-item"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:571
+msgid "run-in"
+msgstr "run-in"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:572
+msgid "table"
+msgstr "table"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:573
+msgid "table-caption"
+msgstr "table-caption"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:574
+msgid "table-column-group"
+msgstr "table-column-group"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:578
+msgid "table-header-group"
+msgstr "table-header-group"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:582
+msgid "table-footer-group"
+msgstr "table-footer-group"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:586
+msgid "table-row-group"
+msgstr "table-row-group"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:590
+msgid "table-cell"
+msgstr "table-cell"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:591
+msgid "table-column"
+msgstr "table-column"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:592
+msgid "table-row"
+msgstr "table-row"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:602
+#: src/App/config/config.jsx:1709 src/App/config/config.jsx:1841
+msgid "Opacity"
+msgstr "شفافیت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:615
+msgid "Box Sizing"
+msgstr "اندازه جعبه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:618
+msgid "content-box"
+msgstr "content-box"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:619
+msgid "border-box"
+msgstr "border-box"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:626
+msgid "Float"
+msgstr "فلوت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:629
+#: src/App/config/config.jsx:641 src/App/config/config.jsx:749
+msgid "left"
+msgstr "چپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:630
+#: src/App/config/config.jsx:642 src/App/config/config.jsx:751
+msgid "right"
+msgstr "راست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:638
+msgid "Clear"
+msgstr "کلیر"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:643
+msgid "both"
+msgstr "هردو"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:650
+msgid "Overflow"
+msgstr "اورفلو"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:653
+msgid "visible"
+msgstr "visible"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:654
+msgid "hidden"
+msgstr "hidden"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:663
+msgid "Vertical Align"
+msgstr "ترازبندی عمودی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:666
+msgid "baseline"
+msgstr "baseline"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:667
+msgid "length"
+msgstr "length"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:668
+msgid "sub"
+msgstr "sub"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:669
+msgid "super"
+msgstr "super"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:670
+#: src/App/config/config.jsx:748
+msgid "top"
+msgstr "top"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:671
+msgid "text-top"
+msgstr "text-top"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:672
+msgid "middle"
+msgstr "middle"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:673
+#: src/App/config/config.jsx:752
+msgid "bottom"
+msgstr "bottom"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:674
+msgid "text-bottom"
+msgstr "text-bottom"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:683
+msgid "Cursor"
+msgstr "نشانه‌گر موس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:686
+msgid "alias"
+msgstr "alias"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:687
+msgid "all-scroll"
+msgstr "all-scroll"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:689
+msgid "cell"
+msgstr "cell"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:690
+msgid "context-menu"
+msgstr "context-menu"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:691
+msgid "col-resize"
+msgstr "col-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:692
+msgid "copy"
+msgstr "copy"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:693
+msgid "crosshair"
+msgstr "crosshair"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:695
+msgid "e-resize"
+msgstr "e-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:696
+msgid "ew-resize"
+msgstr "ew-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:697
+msgid "grab"
+msgstr "گرفتن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:698
+msgid "grabbing"
+msgstr "در حال گرفتن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:699
+msgid "help"
+msgstr "راهنما"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:700
+msgid "move"
+msgstr "حرکت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:701
+msgid "n-resize"
+msgstr "تغییر-اندازه-شمال"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:702
+msgid "ne-resize"
+msgstr "تغییر-اندازه-شمال-شرق"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:703
+msgid "nesw-resize"
+msgstr "تغییر-اندازه-شمال‌شرق-جنوب‌غرب"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:704
+msgid "ns-resize"
+msgstr "ns-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:705
+msgid "nw-resize"
+msgstr "nw-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:706
+msgid "nwse-resize"
+msgstr "nwse-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:707
+msgid "no-drop"
+msgstr "no-drop"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:709
+msgid "not-allowed"
+msgstr "not-allowed"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:710
+msgid "pointer"
+msgstr "اشاره‌گر"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:711
+msgid "progress"
+msgstr "پیشرفت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:712
+msgid "row-resize"
+msgstr "row-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:713
+msgid "s-resize"
+msgstr "s-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:714
+msgid "se-resize"
+msgstr "se-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:715
+msgid "sw-resize"
+msgstr "sw-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:716
+msgid "text"
+msgstr "متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:717
+msgid "URL"
+msgstr "URL"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:718
+msgid "vertical-text"
+msgstr "vertical-text"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:719
+msgid "w-resize"
+msgstr "w-resize"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:720
+msgid "wait"
+msgstr "انتظار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:721
+msgid "zoom-in"
+msgstr "zoom-in"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:722
+msgid "zoom-out"
+msgstr "zoom-out"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:731
+msgid "Object Fit"
+msgstr "آبجکت فیت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:734
+msgid "fill"
+msgstr "Fill"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:738
+msgid "scale-down"
+msgstr "scale-down"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:745
+msgid "Object Position"
+msgstr "موقعیت آبجکت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:750
+msgid "center"
+msgstr "center"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:771
+msgid "Visibility"
+msgstr "وضعیت نمایش"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:783
+msgid "Flex Options"
+msgstr "گزینه‌های فکس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:789
+msgid "Align Content"
+msgstr "Align Content"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:804
+msgid "Align Items"
+msgstr "Align Items"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:818
+msgid "Justify Content"
+msgstr "Justify Content"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:833
+msgid "Flex Direction"
+msgstr "جهت فلکس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:846
+msgid "Flex Wrap"
+msgstr "Flex Wrap"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:858
+msgid "Align Self"
+msgstr "Align Self"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:873
+msgid "Flex Flow"
+msgstr "Flex Flow"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:897
+msgid "Order"
+msgstr "ترتیب"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:909
+msgid "Flex Grow"
+msgstr "Flex Grow"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:921
+msgid "Flex Shrink"
+msgstr "Flex Shrink"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:933
+msgid "Flex Basis"
+msgstr "Flex Basis"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:973
+msgid "Grid Options"
+msgstr "گزینه‌های شبکه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:979
+msgid "Grid Area"
+msgstr "Grid Area"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:985
+msgid "Grid Auto Columns"
+msgstr "Grid Auto Columns"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:991
+msgid "Grid Auto Flow"
+msgstr "Grid Auto Flow"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1009
+msgid "Grid Auto Rows"
+msgstr "Grid Auto Rows"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1015
+msgid "Grid Column"
+msgstr "Grid Column"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1021
+msgid "Grid Column End"
+msgstr "Grid Column End"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1027
+msgid "Grid Column Start"
+msgstr "Grid Column Start"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1033
+msgid "Grid Row"
+msgstr "Grid Row"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1039
+msgid "Grid Row End"
+msgstr "Grid Row End"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1045
+msgid "Grid Row Start"
+msgstr "Grid Row Start"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1051
+msgid "Grid Template"
+msgstr "Grid Template"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1057
+msgid "Grid Template Areas"
+msgstr "Grid Template Areas"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1063
+msgid "Grid Template Columns"
+msgstr "Grid Template Columns"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1069
+msgid "Grid Template Rows"
+msgstr "Grid Template Rows"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1104
+msgid "Min Width"
+msgstr "حداقل عرض"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1117
+msgid "Max Width"
+msgstr "حداکثر عرض"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1149
+msgid "Min Height"
+msgstr "حداقل ارتفاع"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1162
+msgid "Max Height"
+msgstr "حداکثر ارتفاع"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1175
+msgid "Spacing"
+msgstr "فاصله‌گذاری"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1179
+msgid "Padding"
+msgstr "فاصله درونی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1191
+#: src/App/config/config.jsx:1279
+msgid "Top"
+msgstr "بالا"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1227
+#: src/App/config/config.jsx:1315
+msgid "Bottom"
+msgstr "پایین"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1267
+msgid "Margin"
+msgstr "فاصله خارج"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1357
+#: src/App/config/config.jsx:1361
+msgid "Border"
+msgstr "حاشیه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1367
+msgid "Border Type"
+msgstr "نوع حاشیه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1382
+msgid "Border Width"
+msgstr "عرض حاشیه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1391
+msgid "Border Color"
+msgstr "رنگ حاشیه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1420
+msgid "Border Radius"
+msgstr "انحنای حاشیه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1431
+msgid "Top Left"
+msgstr "بالا چپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1449
+msgid "Top Right"
+msgstr "بالا راست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1467
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1485
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1582
+msgid "Position Options"
+msgstr "گزینه‌های موقعیت"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1637
+msgid "Index"
+msgstr "ایندکس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1644
+msgid "Z-Index"
+msgstr "Z ایندکس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1657
+msgid "Shadow"
+msgstr "سایه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1664
+msgid "Box Shadow"
+msgstr "سایه جعبه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1671
+#: src/App/config/config.jsx:1688
+msgid "Vertical"
+msgstr "عمودی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1672
+#: src/App/config/config.jsx:1689
+msgid "Horizontal"
+msgstr "افقی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1673
+#: src/App/config/config.jsx:1690 src/App/config/config.jsx:1723
+#: src/App/config/config.jsx:1869
+msgid "Blur"
+msgstr "محو شدگی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1674
+#: src/App/config/config.jsx:1691
+msgid "Spread"
+msgstr "گسترش"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1675
+msgid "Inset"
+msgstr "درونی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1676
+#: src/App/config/config.jsx:1692
+msgid "Add New Shadow"
+msgstr "افزودن سایه جدید"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1681
+msgid "Text Shadow"
+msgstr "سایه متن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1700
+#: src/App/config/config.jsx:1705
+msgid "Filters"
+msgstr "فیلترها"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1737
+#: src/App/config/config.jsx:1855
+msgid "Grayscale"
+msgstr "مقیاس خاکستری"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1751
+#: src/App/config/config.jsx:1883
+msgid "Brightness"
+msgstr "روشنایی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1765
+#: src/App/config/config.jsx:1897
+msgid "Contrast"
+msgstr "کنتراست"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1779
+#: src/App/config/config.jsx:1911
+msgid "Hue Rotate"
+msgstr "چرخش سبز"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1793
+#: src/App/config/config.jsx:1925
+msgid "Invert"
+msgstr "معکوس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1807
+#: src/App/config/config.jsx:1939
+msgid "Saturate"
+msgstr "اشباع"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1821
+#: src/App/config/config.jsx:1953
+msgid "Sepia"
+msgstr "سپیا"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1837
+msgid "Backdrop Filters"
+msgstr "فیلترهای پس‌زمینه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1971
+#: src/App/config/config.jsx:1976
+msgid "Transform"
+msgstr "تبدیل"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1980
+msgid "Rotate"
+msgstr "چرخش"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:1994
+msgid "Scale"
+msgstr "مقیاس"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2009
+msgid "Translate X"
+msgstr "انتقال افقی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2023
+msgid "Translate Y"
+msgstr "انتقال عمودی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2037
+msgid "Translate Z"
+msgstr "انتقال عمق"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2051
+msgid "Skew X"
+msgstr "اریب افقی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2065
+msgid "Skew Y"
+msgstr "اریب عمودی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2083
+#: src/App/config/config.jsx:2090
+msgid "SVG"
+msgstr "اس‌وی‌جی"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2093
+msgid "Fill"
+msgstr "Fill"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2100
+msgid "Stroke"
+msgstr "Stroke"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2107
+msgid "Fill Opacity"
+msgstr "شفافیت Fill"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2121
+msgid "Stroke Opacity"
+msgstr "شفافیت Stroke"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2135
+msgid "Stroke Width"
+msgstr "ضخامت Stroke"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2152
+#: src/App/config/config.jsx:2204
+msgid "Animation"
+msgstr "انیمیشن"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2156
+msgid "Transition"
+msgstr "انتقال"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2159
+msgid "FX"
+msgstr "جلوه‌های ویژه"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2176
+#: src/App/config/config.jsx:2362
+msgid "Duration"
+msgstr "مدت زمان"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2189
+#: src/App/config/config.jsx:2375
+msgid "Delay"
+msgstr "تاخیر"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2207
+msgid "Pre-built Animation"
+msgstr "انیمیشن از پیش ساخته‌شده"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2286
+msgid "Trigger"
+msgstr "زمان اجرا"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2302
+msgid "2 Times"
+msgstr "2 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2303
+msgid "3 Times"
+msgstr "3 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2304
+msgid "4 Times"
+msgstr "4 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2305
+msgid "5 Times"
+msgstr "5 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2306
+msgid "6 Times"
+msgstr "6 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2307
+msgid "7 Times"
+msgstr "7 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2308
+msgid "8 Times"
+msgstr "8 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2309
+msgid "9 Times"
+msgstr "9 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2310
+msgid "10 Times"
+msgstr "10 بار"
+
+#: build/styler-chunk.js:2 src/App/config/config.jsx:2314
+msgid "Curve"
+msgstr "منحنی"
+
+#: build/styler-chunk.js:2 src/App/lib/content/pro-message/index.jsx:7
+msgid "Requires Pro Version"
+msgstr "به نسخه حرفه ای نیاز دارد"
+
+#: build/styler-chunk.js:2 src/App/lib/content/pro-message/index.jsx:9
+msgid "Upgrade Now"
+msgstr "اکنون ارتقا دهید"
+
+#: build/styler-chunk.js:2 src/App/lib/components/context/index.jsx:261
+msgid "Devices"
+msgstr "دستگاه ها"
+
+#: build/styler-chunk.js:2 src/App/lib/components/context/index.jsx:308
+msgid "Copy Tab"
+msgstr "تب کپی"
+
+#: build/styler-chunk.js:2 src/App/lib/components/context/index.jsx:313
+msgid "Paste"
+msgstr "چسباندن"
+
+#: build/styler-chunk.js:2 src/App/lib/components/context/index.jsx:318
+msgid "Reset Tab"
+msgstr "بازنشانی تب"
+
+#: build/styler-chunk.js:2 src/App/contents/form.jsx:60
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: src/App/config/config.jsx:946
+msgid "Row Gap"
+msgstr ""
+
+#: src/App/config/config.jsx:959
+msgid "Column Gap"
+msgstr ""
+
+#~ msgctxt "block title"
+#~ msgid "Example: Basic (ESNext)"
+#~ msgstr "مثال: پایه (ESNext)"
+
+#~ msgid "Default description textarea"
+#~ msgstr "توضیحات پیش‌فرض ناحیه متنی"
+
+#~ msgid "Default description TinyMCE"
+#~ msgstr "توضیحات پیش‌فرض ویرایشگر"
+
+#~ msgid "Div"
+#~ msgstr "بخش"
+
+#~ msgid "H1 Tag"
+#~ msgstr "تگ H1"
+
+#~ msgid "H2 Tag"
+#~ msgstr "تگ H2"
+
+#~ msgid "Heading 1"
+#~ msgstr "سرتیتر ۱"
+
+#~ msgid "Heading 2"
+#~ msgstr "سرتیتر ۲"
+
+#~ msgid "Heading 3"
+#~ msgstr "سرتیتر ۳"
+
+#~ msgid "Heading 4"
+#~ msgstr "سرتیتر ۴"
+
+#~ msgid "Heading 5"
+#~ msgstr "سرتیتر ۵"
+
+#~ msgid "Heading 6"
+#~ msgstr "سرتیتر ۶"
+
+#~ msgid "Hello, World!"
+#~ msgstr "سلام، دنیا!"
+
+#~ msgid "Input Tag"
+#~ msgstr "تگ ورودی"
+
+#~ msgid "Link"
+#~ msgstr "پیوند"
+
+#~ msgid "New title"
+#~ msgstr "عنوان جدید"
+
+#~ msgid "P Tag"
+#~ msgstr "تگ P"
+
+#~ msgid "Page Title Style(h1)"
+#~ msgstr "استایل عنوان صفحه (h1)"
+
+#~ msgid "Paragraph"
+#~ msgstr "پاراگراف"
+
+#~ msgid "Post Content Style"
+#~ msgstr "استایل محتوای نوشته"
+
+#~ msgid "Post Options"
+#~ msgstr "تنظیمات نوشته"
+
+#~ msgid "Post Title Style(h2)"
+#~ msgstr "استایل عنوان نوشته (h2)"
+
+#~ msgid "Sample widget based on WPBeginner Tutorial"
+#~ msgstr "نمونه ویجت بر اساس آموزش WPBeginner"
+
+#~ msgid "Span"
+#~ msgstr "اسپن"
+
+#~ msgid "Strong"
+#~ msgstr "پررنگ"
+
+#~ msgid "Styler"
+#~ msgstr "استایلر"
+
+#~ msgid "Styler Advanced Styling"
+#~ msgstr "استایل‌دهی پیشرفته استایلر"
+
+#~ msgid "Styler Global Type Test"
+#~ msgstr "تست نوع جهانی استایلر"
+
+#~ msgid "Styler Test Text"
+#~ msgstr "متن تست استایلر"
+
+#~ msgid "Styler Test Widget"
+#~ msgstr "ویجت تست استایلر"
+
+#~ msgid "Text Editor"
+#~ msgstr "ویرایشگر متن"
+
+#~ msgid "Text Settings"
+#~ msgstr "تنظیمات متن"
+
+#~ msgid "Textarea"
+#~ msgstr "ناحیه متنی"
+
+#~ msgid "TinyMCE"
+#~ msgstr "ویرایشگر TinyMCE"
+
+#~ msgid "Wrapper"
+#~ msgstr "پوشش‌دهنده"
