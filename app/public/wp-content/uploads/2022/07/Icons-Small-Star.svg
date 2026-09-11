@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb000;
+      }
+    </style>
+  </defs>
+  <path id="Icons_Small_Star" data-name="Icons / Small / Star" class="cls-1" d="M7.4.3,8.9,5.01h4.683a.445.445,0,0,1,.247.8l-3.8,2.932,1.44,4.688a.426.426,0,0,1-.646.491L7,11,3.178,13.916a.426.426,0,0,1-.646-.491L4,8.738.17,5.8a.445.445,0,0,1,.247-.8H5.1L6.6.3A.415.415,0,0,1,7.4.3Z" transform="translate(0 0)"/>
+</svg>
