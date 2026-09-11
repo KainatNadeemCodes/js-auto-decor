@@ -1,0 +1,349 @@
+/*
+ * JS Auto Decor Child
+ * Base styles and shared accessibility rules.
+ */
+
+/* Box sizing */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+/* Base document styles */
+body {
+	background-color: var(--jsad-color-background);
+	color: var(--jsad-color-text);
+	font-family: var(--jsad-font-family-base);
+	font-size: var(--jsad-font-size-base);
+	line-height: var(--jsad-line-height-base);
+	text-rendering: optimizeLegibility;
+}
+
+img,
+svg,
+video,
+canvas {
+	max-width: 100%;
+	height: auto;
+}
+
+img {
+	display: block;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font: inherit;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--jsad-color-heading);
+	font-family: var(--jsad-font-family-heading);
+	line-height: var(--jsad-line-height-tight);
+	font-weight: var(--jsad-font-weight-bold);
+	margin-top: 0;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: var(--jsad-space-4);
+}
+
+strong,
+b {
+	font-weight: var(--jsad-font-weight-bold);
+}
+
+/* Links */
+a {
+	color: var(--jsad-color-link);
+	transition:
+		color var(--jsad-transition-fast),
+		background-color var(--jsad-transition-fast),
+		border-color var(--jsad-transition-fast),
+		opacity var(--jsad-transition-fast);
+}
+
+a:hover,
+a:focus {
+	color: var(--jsad-color-link-hover);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+	outline: var(--jsad-focus-width) solid var(--jsad-color-focus);
+	outline-offset: 2px;
+}
+
+/* Buttons */
+button,
+.button,
+.wp-element-button,
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+	background-color: var(--jsad-color-button-primary);
+	border: var(--jsad-border-width) solid var(--jsad-color-button-primary);
+	border-radius: var(--jsad-radius-sm);
+	color: var(--jsad-color-button-primary-text);
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: var(--jsad-font-weight-semibold);
+	line-height: 1.25;
+	min-height: 2.75rem;
+	padding: 0.75rem 1.25rem;
+	text-align: center;
+	text-decoration: none;
+	transition:
+		background-color var(--jsad-transition-base),
+		border-color var(--jsad-transition-base),
+		color var(--jsad-transition-base),
+		box-shadow var(--jsad-transition-base),
+		transform var(--jsad-transition-base);
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+.wp-element-button:hover,
+.wp-element-button:focus,
+input[type='button']:hover,
+input[type='button']:focus,
+input[type='submit']:hover,
+input[type='submit']:focus,
+input[type='reset']:hover,
+input[type='reset']:focus,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus,
+.woocommerce input.button:hover,
+.woocommerce input.button:focus {
+	background-color: var(--jsad-color-button-primary-hover);
+	border-color: var(--jsad-color-button-primary-hover);
+	color: var(--jsad-color-white);
+}
+
+button:active,
+.button:active,
+.wp-element-button:active,
+input[type='button']:active,
+input[type='submit']:active,
+input[type='reset']:active {
+	transform: translateY(1px);
+}
+
+button:disabled,
+button[disabled],
+.button.disabled,
+.woocommerce a.button.disabled,
+.woocommerce button.button.disabled {
+	cursor: not-allowed;
+	opacity: 0.55;
+}
+
+/* Form controls */
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='tel'],
+input[type='number'],
+input[type='search'],
+input[type='password'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='time'],
+input[type='week'],
+select,
+textarea {
+	background-color: var(--jsad-color-white);
+	border: var(--jsad-border-width) solid var(--jsad-color-border);
+	border-radius: var(--jsad-radius-sm);
+	color: var(--jsad-color-text);
+	max-width: 100%;
+	padding: 0.75rem 0.875rem;
+	transition:
+		border-color var(--jsad-transition-fast),
+		box-shadow var(--jsad-transition-fast),
+		background-color var(--jsad-transition-fast);
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='tel']:focus,
+input[type='number']:focus,
+input[type='search']:focus,
+input[type='password']:focus,
+input[type='date']:focus,
+input[type='datetime-local']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+input[type='week']:focus,
+select:focus,
+textarea:focus {
+	background-color: var(--jsad-color-white);
+	border-color: var(--jsad-color-gold);
+	box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.18);
+	outline: none;
+}
+
+textarea {
+	min-height: 8rem;
+	resize: vertical;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	border-bottom: var(--jsad-border-width) solid var(--jsad-color-border);
+	padding: var(--jsad-space-3) var(--jsad-space-4);
+	text-align: left;
+	vertical-align: top;
+}
+
+th {
+	color: var(--jsad-color-heading);
+	font-weight: var(--jsad-font-weight-semibold);
+}
+
+/* WordPress accessibility helpers */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: var(--jsad-color-white);
+	border-radius: var(--jsad-radius-sm);
+	box-shadow: var(--jsad-shadow-md);
+	clip: auto !important;
+	clip-path: none;
+	color: var(--jsad-color-black);
+	display: block;
+	font-size: var(--jsad-font-size-sm);
+	font-weight: var(--jsad-font-weight-semibold);
+	height: auto;
+	left: var(--jsad-space-4);
+	line-height: normal;
+	padding: var(--jsad-space-3) var(--jsad-space-4);
+	text-decoration: none;
+	top: var(--jsad-space-4);
+	width: auto;
+	z-index: var(--jsad-z-notice);
+}
+
+/* Shared child-theme utility classes */
+.jsad-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--jsad-content-width);
+	padding-left: var(--jsad-content-gutter);
+	padding-right: var(--jsad-content-gutter);
+	width: 100%;
+}
+
+.jsad-container--wide {
+	max-width: var(--jsad-content-width-wide);
+}
+
+.jsad-button--dark {
+	background-color: var(--jsad-color-button-dark);
+	border-color: var(--jsad-color-button-dark);
+	color: var(--jsad-color-button-dark-text);
+}
+
+.jsad-button--dark:hover,
+.jsad-button--dark:focus {
+	background-color: var(--jsad-color-button-dark-hover);
+	border-color: var(--jsad-color-button-dark-hover);
+	color: var(--jsad-color-white);
+}
+
+.jsad-button--outline {
+	background-color: transparent;
+	border-color: var(--jsad-color-gold);
+	color: var(--jsad-color-black);
+}
+
+.jsad-button--outline:hover,
+.jsad-button--outline:focus {
+	background-color: var(--jsad-color-gold);
+	border-color: var(--jsad-color-gold);
+	color: var(--jsad-color-black);
+}
+
+/* WooCommerce notices */
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+	border-top-color: var(--jsad-color-gold);
+}
+
+.woocommerce-error {
+	border-top-color: var(--jsad-color-error);
+}
+
+.woocommerce-message {
+	border-top-color: var(--jsad-color-success);
+}
+
+/* Mobile defaults */
+@media (max-width: 767px) {
+	:root {
+		--jsad-content-gutter: 1rem;
+		--jsad-section-spacing: var(--jsad-section-spacing-mobile);
+	}
+
+	button,
+	.button,
+	.wp-element-button,
+	input[type='button'],
+	input[type='submit'],
+	input[type='reset'],
+	.woocommerce a.button,
+	.woocommerce button.button,
+	.woocommerce input.button {
+		min-height: 2.625rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
