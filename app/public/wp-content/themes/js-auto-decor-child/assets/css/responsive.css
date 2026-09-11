@@ -1,0 +1,28 @@
+@media (max-width: 1100px) {
+	.jsad-category-grid, .jsad-product-grid, .woocommerce ul.products, .woocommerce-page ul.products { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 800px) {
+	.jsad-hero { min-height: 560px; padding: 72px 0; }
+	.jsad-hero::before { background: linear-gradient(180deg, rgba(17,17,17,.7), rgba(17,17,17,.97)); }
+	.jsad-hero__inner { padding-inline: 18px; }
+	.jsad-hero__title { font-size: clamp(2.6rem, 12vw, 4.8rem); }
+	.jsad-category-grid, .jsad-product-grid, .woocommerce ul.products, .woocommerce-page ul.products { gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.jsad-trust-grid { grid-template-columns: repeat(2, 1fr); }
+	.jsad-trust-badge { border-bottom: 1px solid rgba(255,255,255,.16); }
+	.jsad-whatsapp-cta__inner { align-items: flex-start; flex-direction: column; }
+	.jsad-whatsapp-cta__button { width: 100%; }
+	.single-product div.product .summary { padding-left: 0; }
+}
+
+@media (max-width: 480px) {
+	.jsad-category-grid, .jsad-product-grid, .woocommerce ul.products, .woocommerce-page ul.products { grid-template-columns: 1fr; }
+	.jsad-trust-grid { grid-template-columns: 1fr; }
+	.jsad-trust-badge { border-right: 0; padding-inline: 0; }
+	.jsad-hero__actions { align-items: stretch; flex-direction: column; }
+	.jsad-hero__button { justify-content: center; width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
