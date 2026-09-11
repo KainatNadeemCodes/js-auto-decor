@@ -1,0 +1,18 @@
+:root {
+	--jsad-black: #111111;
+	--jsad-black-soft: #1c1c1c;
+	--jsad-gold: #d4a017;
+	--jsad-gold-dark: #a87908;
+	--jsad-gold-light: #e7c45c;
+	--jsad-white: #ffffff;
+	--jsad-gray-100: #f5f5f5;
+	--jsad-gray-200: #e7e7e7;
+	--jsad-gray-500: #777777;
+	--jsad-border: #dddddd;
+	--jsad-success: #18794e;
+	--jsad-error: #b42318;
+	--jsad-content-width: 1240px;
+	--jsad-radius: 8px;
+	--jsad-shadow: 0 12px 32px rgba(17, 17, 17, .12);
+	--jsad-transition: 250ms cubic-bezier(.22, 1, .36, 1);
+}
